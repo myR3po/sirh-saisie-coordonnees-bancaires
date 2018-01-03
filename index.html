@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SGP App</title>
+
+        <!-- CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    </head>
+
+    <body>
+
+        <!-- Top content -->
+        <div class="top-content">
+                <div class="container">
+                	
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2 text">
+                            <h1><strong>SGP</strong> Saisie des coordonnées bancaires</h1>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-sm-5">
+                        	
+                        	<table id="myTable" class="table thead-default table-bordered">
+								<thead>
+									<tr>
+										<th>Matricule</th>
+										<th>Nom</th>
+										<th>Prénom</th>
+									</tr>
+								</thead>
+										
+								<tbody>
+								</tbody>
+							</table>
+		                
+		               
+	                        
+                        </div>
+                        
+                        <div class="col-sm-1 middle-border"></div>
+                        <div class="col-sm-1"></div>
+                        	
+                        <div class="col-sm-5">
+                        	
+                        	<div class="form-box">
+                        		<div class="form-top">
+	                        		<div class="form-top-left">
+	                        			<h3>Inscription</h3>
+	                        		</div>
+	                        		<div class="form-top-right">
+	                        			<i class="fa fa-pencil"></i>
+	                        		</div>
+	                            </div>
+	                            <div class="form-bottom">
+				                    <form id="registration-form" role="form" action="" method="post" class="registration-form">
+				                    	<div class="form-group">
+				                    		<label class="sr-only" for="banque">Banque</label>
+				                        	<input type="text" placeholder="nom de la banque..." class="form-control" id="banque" name="banque">
+				                        </div>
+				                        <div class="form-group">
+				                        	<label class="sr-only" for="bic">Bic</label>
+				                        	<input type="text" placeholder="Bic..." class="form-control" id="bic" name="bic">
+				                        </div>
+				                        <div class="form-group">
+				                        	<label class="sr-only" for="iban">Iban</label>
+				                        	<input type="text" placeholder="Iban..." class="form-control" id="iban" name="iban" >
+				                        </div>
+				                        <button type="submit" class="btn">Sauvegarder</button>
+				                    </form>
+			                    </div>
+                        	</div>
+                        	
+                        </div>
+                    </div>
+                    
+                </div>
+            
+        </div>	
+		
+        <!-- Javascript -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+		<script src="app.js"></script>
+
+    </body>
+
+</html>
